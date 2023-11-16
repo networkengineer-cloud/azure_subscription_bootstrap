@@ -16,4 +16,5 @@ variable "invoice_section_name" {
 variable "subscription_name" {
   type        = string
   description = "Value to use for the subscription name. If not provided, a random pet name will be used."
+  default     = null
 }
